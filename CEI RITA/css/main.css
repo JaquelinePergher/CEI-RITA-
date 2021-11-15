@@ -1,0 +1,413 @@
+/*@font-face {
+     font-family: ;
+     src: url('../font/');
+}
+*/
+@font-face {
+     font-family: material;
+     src: url('../font/MaterialIcons-Regular.ttf');
+}
+
+@font-face {
+     font-family: titulo;
+     src: url('../font/Monofett-Regular.ttf');
+}
+
+@font-face {
+     font-family: info;
+     src: url('../font/copperplate-gothic.otf');
+}
+
+@font-face {
+     font-family: final;
+     src: url('../font/constantia.ttf');
+}
+
+@font-face {
+     font-family: texto;
+     src: url('../font/leelawadee.ttf');
+}
+
+.material-icon{
+     font-family: material;
+}
+
+body {
+     height:100%;
+     width: 100%;
+     position:relative;
+}
+
+section.inicio{
+     background-color: #a5ccf2;
+     background-size: auto;
+     height: 666px;
+     width: 375px;
+}
+
+section.inicio header{
+     text-align: right;
+}
+
+section.inicio header button{
+     margin: 1vh auto;
+     /*margin: 0.2em 0.5em 0.5em 6em;*/
+     background: none;
+     border: none;
+     color: rgb(0, 0, 0);
+     font-size: 3em;
+}
+
+section.inicio header img{
+     margin: 5vh 28vw 0 15vh;
+     /*margin: 0.2em 0.5em 0.5em 6em;*/
+     background: none;
+     border: none;
+     height: 185x;
+     width: 185px;
+}
+
+section.inicio button.consulta{
+     text-align: center;
+     font-size: 20px;
+     margin: 4em 0 1em 3em;
+     background: #192a56;
+     color: white;
+     padding: 1em 3em;
+     border-radius: 26px;
+}
+
+section.inicio button.cadastro{
+     text-align: center;
+     font-size: 20px;
+     margin: 4em 0 1em 3em;
+     background: #192a56;
+     color: white;
+     padding: 1em 3em;
+     border-radius: 26px;
+}
+
+section.cadastro{
+     background-color: #a5ccf2;
+     background-size: auto;
+     height: 716px;
+     width: 375px;
+     display: none
+}
+
+section.cadastro h1{
+     font-family: info;
+     font-size: 40px;
+     text-align: center;
+}
+
+section.cadastro h3{
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+     font-size: 20px;
+     text-align: left;
+     margin: 1vh 0 0 3vw;
+}
+
+section.cadastro input{
+     margin: 1vh 0 0 10vw;
+     height: 25px;
+     width: 245px;
+}
+
+section.cadastro input.obs{
+     margin: 1vh 0 1vh 10vw;
+     height: 55px;
+     width: 245px;
+}
+
+section.consulta{
+     background-color: #a5ccf2;
+     background-size: auto;
+     height: 4366px;
+     width: 375px;
+     display: none
+}
+
+section.consulta h1{
+     font-family: info;
+     font-size: 40px;
+     text-align: center;
+}
+
+section.consulta h3{
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+     font-size: 20px;
+     text-align: center;
+     margin: 1vh 0 0 3vw;
+}
+
+section.consulta button{
+     text-align: center;
+     font-size: 13px;
+     margin: 2em 0 1em 2em;
+     background: #192a56;
+     color: white;
+     padding: 1em 3em;
+     border-radius: 10px;
+}
+
+section.dados{
+     background-color: #a5ccf2;
+     background-size: auto;
+     height: 666px;
+     width: 375px;
+     display: none
+}
+
+section.dados header img{
+     margin: 5vh 28vw 0 15vh;
+     /*margin: 0.2em 0.5em 0.5em 6em;*/
+     background: none;
+     border: none;
+     height: 185x;
+     width: 185px;
+}
+
+section.dados h1{
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+     font-size: 20px;
+     text-align: center;
+     margin: 2vh 0 0 3vw;
+}
+
+
+
+
+
+
+
+
+
+section.info{
+     background: url(../img/iPhone\ X\,\ XS\,\ 11\ Pro\ –\ 2.png) no-repeat center bottom;
+     background-size: auto;
+     height: 812px;
+     width: 375px;
+     display: none;
+}
+
+section.info header img{
+     margin: 1vh 65vw 0 2vh;
+     /*margin: 0.2em 0.5em 0.5em 6em;*/
+     background: none;
+     border: none;
+     height: 40x;
+     width: 45px;
+}
+
+section.info h1{
+     font-family: info;
+     font-size: 40px;
+     text-align: center;
+}
+
+section.info h3{
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+     font-size: 20px;
+     text-align: center;
+     margin: 1vh auto;
+}
+
+section.info h5{
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+     font-size: 20px;
+     text-align: center;
+     margin: 8vh 4.5vw 0 4.5vw;
+     line-height: 1.5;
+}
+
+section.tela2{
+     background: url(../img/iPhone\ X\,\ XS\,\ 11\ Pro\ –\ 2.png) no-repeat center bottom;
+     background-size: auto;
+     height: 812px;
+     width: 375px;
+     display: none;
+}
+
+section.tela2 ul{
+     display: flex;
+     justify-content: space-around;
+ }
+
+ section.tela2 ul{
+     padding: 3vh 0;
+ }
+ 
+ section.tela2 ul li{
+     width: 29vw;
+     height: 29vw;
+     margin: 0 auto;
+ }
+
+ section.tela2 ul li img{
+     width: 100%;
+     border-radius: 50%;
+     border: 3px solid #e3d7cb;
+     box-shadow: 4px 4px 2px -2px rgba(0,0,0,0.5); 
+ }
+
+section.tela2 h3{
+     text-align: center;
+     font-family: texto;
+     font-size: 1.8em;
+     margin: 0 1vw 0 1vw;
+}
+
+section.tela2 h4{
+     text-align: center;
+     font-family: texto;
+     font-size: 20px;
+     margin: 0 1vw 0 1vw;
+}
+
+section.tela2 img.logo{  
+     border: none;
+     height: 250px;
+     width: 400px;
+}
+
+section.perguntas{
+     background: url(../img/tela\ de\ perguntas\ –\ 1.png) no-repeat center bottom;
+     background-size: auto;
+     height: 812px;
+     width: 100%;
+     display: none;
+}
+
+section.perguntas header{
+     background-color: black;
+     display: flex;	
+     height: 86px;
+     width: 100%;
+}
+
+section.perguntas header img.logo{
+     margin: 1vh 0 0 1vh;
+     height: 86x;
+     width: 86px;
+}
+
+section.perguntas header h1{
+     color: #F3EF74;
+     font-family: info;
+     font-size: 40px;
+     text-align: center;
+     margin: 3vh 1vw 0 4vw;
+}
+
+section.perguntas div.centro{
+     background-color: rgba(250, 175, 0, 0.8);
+     margin: 4vh 7vw 7vh 7vw;
+     height: 600px;
+     background-position-y: absolute;
+}
+
+section.perguntas h3{
+     font-family: texto;
+     font-size: 1em;
+     text-align: left;
+     margin: 2vh 0 2vh 9vw;
+}
+
+section.perguntas div.tempo{
+     font-size: 25px;
+     text-align: center;
+     background-color: rgba(250, 175, 0, 1);
+     height: 55px;
+     box-shadow: 2px 2px 1px rgba(0,0,0,0.3);
+}
+
+section.perguntas ul li{
+     display: block;
+     justify-content: space-around;
+     flex-wrap: wrap;
+     padding: 1vh 0;
+     margin: 0 0 0 5vw;
+}
+
+section.perguntas ul li button.resposta{
+     font-family: texto;
+     font-size: 1em;
+     background-color: #FAB000;
+     border-radius: 26px;
+     padding: 0.6em 0.6em;
+     border: none;
+     box-shadow: 2px 2px 0 rgba(0,0,0,0.8);
+}
+
+section.perguntas ul li button.certa{
+     display: none;
+}
+
+section.perguntas ul li h4{
+     font-size: 0.9em;
+     margin: 0 auto;
+}
+
+section.perguntas footer{
+     background-color: #FAB000;
+     width: 100%;
+     height: 6vh;
+     font-size: 2em;
+     text-align: center;
+     color: black;
+     margin: 0 auto;
+     position: absolute;
+     bottom: 0;
+}
+
+section.perguntas footer span.material-icon{
+     position: relative;
+     font-size: 34px;
+     font: material-icon;
+     top: 5px;
+     margin: 1vh 8vw 1vh 8vw;
+ }
+
+section.final{
+     background: url(../img/iPhone\ X\,\ XS\,\ 11\ Pro\ –\ 2.png) no-repeat center bottom;
+     background-size: auto;
+     height: 812px;
+     width: 375px; 
+     display: none;
+}
+
+section.final img.vencer{
+     margin: 10vh 2vw 0 9vh;
+     /*margin: 0.2em 0.5em 0.5em 6em;*/
+     background: none;
+     border: none;
+     height: 250px;
+     width: 250px;
+     position: relative;
+}
+
+section.final h3{
+     font-family: final;
+     font-size: 30px;
+     text-align: center;
+     margin: 5vh auto;
+     line-height: 1;
+}
+
+section.final h4{
+     font-family: final;
+     font-size: 25px;
+     text-align: left;
+     margin: 2vh 0 0 12vw;
+}
+
+section.final button{
+     text-align: center;
+     font-size: 1em;
+     margin: 6em 2em 2em 3.8em;
+     background: black;
+     color: #F3EF74;
+     padding: 1em 4em;
+     border-radius: 26px;
+}
